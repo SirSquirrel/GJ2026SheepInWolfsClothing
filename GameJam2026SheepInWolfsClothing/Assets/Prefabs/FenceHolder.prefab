@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 78360157308947441}
   - component: {fileID: 2982954029636185144}
   - component: {fileID: 562248365534035171}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 6789779299978778257}
   - component: {fileID: 7200667126554757752}
   - component: {fileID: 6860755144417342621}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -287,7 +287,7 @@ GameObject:
   - component: {fileID: 1760903575982281277}
   - component: {fileID: 3140079922113136238}
   - component: {fileID: 290607928759859865}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -480,7 +480,7 @@ GameObject:
   - component: {fileID: 4510430828217173405}
   - component: {fileID: 5455916393203142460}
   - component: {fileID: 8167811923066614256}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -618,7 +618,7 @@ GameObject:
   - component: {fileID: 902583774648641414}
   - component: {fileID: 4137614723931451220}
   - component: {fileID: 7285570761938951603}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -756,7 +756,7 @@ GameObject:
   - component: {fileID: 4629703057093287745}
   - component: {fileID: 4540366300669096422}
   - component: {fileID: 8438151426717184054}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -894,7 +894,7 @@ GameObject:
   - component: {fileID: 5225310010241149142}
   - component: {fileID: 6128639951540322308}
   - component: {fileID: 5406159712418118131}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1032,7 +1032,7 @@ GameObject:
   - component: {fileID: 1549948413163705733}
   - component: {fileID: 1361315751930095077}
   - component: {fileID: 4450167571251327059}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1170,7 +1170,7 @@ GameObject:
   - component: {fileID: 4689680281933079162}
   - component: {fileID: 9130223370710173881}
   - component: {fileID: 8277619846688303856}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1308,7 +1308,7 @@ GameObject:
   - component: {fileID: 25438465676359084}
   - component: {fileID: 2354139950197376908}
   - component: {fileID: 619833842316716914}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1446,7 +1446,7 @@ GameObject:
   - component: {fileID: 5335036279750367657}
   - component: {fileID: 33230811896180286}
   - component: {fileID: 6268939601809239805}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1584,7 +1584,7 @@ GameObject:
   - component: {fileID: 1172047136872053121}
   - component: {fileID: 1107749761052255}
   - component: {fileID: 1754293535122238359}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1722,7 +1722,7 @@ GameObject:
   - component: {fileID: 6655157974088335072}
   - component: {fileID: 6514692208838208148}
   - component: {fileID: 3666016860088808939}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1860,7 +1860,7 @@ GameObject:
   - component: {fileID: 2218203795794298934}
   - component: {fileID: 4070069705158824065}
   - component: {fileID: 8117057825247452300}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1998,7 +1998,7 @@ GameObject:
   - component: {fileID: 5606406360547373046}
   - component: {fileID: 9140591670057753675}
   - component: {fileID: 5217234366398584038}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2136,7 +2136,7 @@ GameObject:
   - component: {fileID: 2623689334239964218}
   - component: {fileID: 7743438975114674832}
   - component: {fileID: 5086979880739330730}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2274,7 +2274,7 @@ GameObject:
   - component: {fileID: 3898280106793829005}
   - component: {fileID: 1908427478797598099}
   - component: {fileID: 4395316466894790514}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2412,7 +2412,7 @@ GameObject:
   - component: {fileID: 7815130307563004151}
   - component: {fileID: 4050299528676963116}
   - component: {fileID: 854523479531737095}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2550,7 +2550,7 @@ GameObject:
   - component: {fileID: 5442309971035034018}
   - component: {fileID: 8402184300011942167}
   - component: {fileID: 6280676637962791014}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2688,7 +2688,7 @@ GameObject:
   - component: {fileID: 494035154556189423}
   - component: {fileID: 6993391343006658643}
   - component: {fileID: 7521676704353576445}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2826,7 +2826,7 @@ GameObject:
   - component: {fileID: 475730168916891634}
   - component: {fileID: 4221915368586039128}
   - component: {fileID: 8000777683672774461}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2964,7 +2964,7 @@ GameObject:
   - component: {fileID: 1126199637479845918}
   - component: {fileID: 1183124901864301561}
   - component: {fileID: 7721574611594067529}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3102,7 +3102,7 @@ GameObject:
   - component: {fileID: 3113124139136514571}
   - component: {fileID: 1134040610764865531}
   - component: {fileID: 6805378719993825924}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3240,7 +3240,7 @@ GameObject:
   - component: {fileID: 7549444814538841514}
   - component: {fileID: 927887584449827930}
   - component: {fileID: 5081500727626052938}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fence_256x128_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

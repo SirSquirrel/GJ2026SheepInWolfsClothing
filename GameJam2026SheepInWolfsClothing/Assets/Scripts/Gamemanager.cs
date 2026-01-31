@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class GameManager : MonoBehaviour
     public int sheepcoin = 10;
     public int score = 0;
     public float survivalTime = 0;
+    public List<GameObject> sheep = new List<GameObject>();
 
     public static GameManager Instance
     {
