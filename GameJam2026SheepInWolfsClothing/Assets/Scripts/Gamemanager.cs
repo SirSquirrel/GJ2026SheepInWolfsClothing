@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class Gamemanager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    public static Gamemanager _instance;
+    public static GameManager _instance;
     public int sheepcoin = 10;
     public int score = 0;
     public float survivalTime = 0;
 
-    public static Gamemanager Instance
+    public static GameManager Instance
     {
         get
         {

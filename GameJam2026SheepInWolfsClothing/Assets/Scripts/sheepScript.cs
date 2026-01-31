@@ -35,7 +35,7 @@ public class sheepScript : MonoBehaviour
 
     public void gainCoin()
     {
-        Gamemanager._instance.AddSheepCoin(1);
+        GameManager._instance.AddSheepCoin(1);
     }
 
     public void Wander()
