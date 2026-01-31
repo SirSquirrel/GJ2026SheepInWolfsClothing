@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3169234147169277022}
   - component: {fileID: 2899329574331836057}
   - component: {fileID: 5952887169307783639}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sheep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 1
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
