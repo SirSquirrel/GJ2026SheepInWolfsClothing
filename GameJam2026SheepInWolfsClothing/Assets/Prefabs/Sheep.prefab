@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   timeSinceLastCoin: 0
-  coinTime: 5
+  coinTime: 3
   timeSinceLastWander: 0
   timeToNextWander: 5
   wanderTime: 5

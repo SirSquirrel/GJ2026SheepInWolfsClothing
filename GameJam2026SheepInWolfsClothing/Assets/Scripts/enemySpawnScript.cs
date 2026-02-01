@@ -10,6 +10,9 @@ public class enemySpawnScript : MonoBehaviour
     public GameObject poacherPrefab;
     public bool poacherSpawning = false;
     public float timeUntilPoacherSpawnAllowed = 50f;
+    public GameObject dragonPrefab;
+    public bool dragonSpawning = false;
+    public float timeUntilDragonSpawnAllowed = 50f;
     public float timeUntilWolfSpawnAllowed = 0;
     public float enemyTimer = 0f;
     public float timeTillEnemySpawn = 10f;
@@ -40,6 +43,11 @@ public class enemySpawnScript : MonoBehaviour
             {
                 enemiesCurrentlySpawning.Add(poacherPrefab);
                 poacherSpawning = true;
+            }
+            if (!dragonSpawning && GameManager._instance.survivalTime > timeUntilDragonSpawnAllowed)
+            {
+                enemiesCurrentlySpawning.Add(dragonPrefab);
+                dragonSpawning = true;
             }
 
             SpawnEnemy();

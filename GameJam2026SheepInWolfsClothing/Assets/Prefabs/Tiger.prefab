@@ -172,6 +172,8 @@ MonoBehaviour:
   enemyType: Tiger
   scared: 0
   summoningSickness: 4.5
+  summoningMax: 7
+  summoningMin: 4.5
   reevaluateTargetTime: 1
   target: {fileID: 0}
   targetTimer: 0

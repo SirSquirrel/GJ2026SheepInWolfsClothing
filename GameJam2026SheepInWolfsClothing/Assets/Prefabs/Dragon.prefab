@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3200054648898631264
+--- !u!1 &2032659348801069632
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1834373509937554172}
-  - component: {fileID: 7940013257192370157}
-  - component: {fileID: 8904879401817559086}
-  - component: {fileID: 2549804353586172554}
-  - component: {fileID: 1051191957170369119}
+  - component: {fileID: 78398071282071889}
+  - component: {fileID: 5976931151189234443}
+  - component: {fileID: 3751355653730862262}
+  - component: {fileID: 3378695551127979759}
+  - component: {fileID: 3322850698954964954}
   m_Layer: 9
-  m_Name: Wolf
+  m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1834373509937554172
+--- !u!4 &78398071282071889
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3200054648898631264}
+  m_GameObject: {fileID: 2032659348801069632}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.31, y: 4.32, z: -0.01}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalPosition: {x: 3.22, y: 4.21, z: -0.01}
+  m_LocalScale: {x: 2.1260893, y: 2.0445168, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &7940013257192370157
+--- !u!212 &5976931151189234443
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3200054648898631264}
+  m_GameObject: {fileID: 2032659348801069632}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -458185587419916677, guid: ea3d8ea6799003f4a905f34296e060c1, type: 3}
+  m_Sprite: {fileID: -2050664285692474864, guid: fd7122bb8a0e8d04d928ddebbb18dda2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -94,13 +94,13 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!58 &8904879401817559086
+--- !u!58 &3751355653730862262
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3200054648898631264}
+  m_GameObject: {fileID: 2032659348801069632}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -129,15 +129,15 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.15
---- !u!50 &2549804353586172554
+  m_Radius: 0.37
+--- !u!50 &3378695551127979759
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3200054648898631264}
+  m_GameObject: {fileID: 2032659348801069632}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -157,25 +157,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1051191957170369119
+--- !u!114 &3322850698954964954
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3200054648898631264}
+  m_GameObject: {fileID: 2032659348801069632}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 232b3cf613cf2a44d940b21d22644e69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  enemyType: Wolf
+  enemyType: Dragon
   scared: 0
-  summoningSickness: 5
-  summoningMax: 8
-  summoningMin: 5
+  summoningSickness: 4
+  summoningMax: 3
+  summoningMin: 2
   reevaluateTargetTime: 1
   target: {fileID: 0}
   targetTimer: 0
   spawnTimer: 0
-  speed: 1
+  speed: 1.2

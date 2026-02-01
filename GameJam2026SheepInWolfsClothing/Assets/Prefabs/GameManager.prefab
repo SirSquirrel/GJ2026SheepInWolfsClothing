@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1449893282117909280}
   - component: {fileID: 8753769447803921557}
-  - component: {fileID: 1187267187614965298}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -53,18 +52,3 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   lives: 3
---- !u!114 &1187267187614965298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5040871637003059252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c11e85896f6b8c842849dbb90da65214, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  sheep: {fileID: 6571901194360496942, guid: cfafedd8a793b544d893d516d382e1bb, type: 3}
-  timeBetweenSpawns: 15
-  spawnTimer: 0

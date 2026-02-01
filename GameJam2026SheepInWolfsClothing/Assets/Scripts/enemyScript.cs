@@ -6,6 +6,8 @@ public class enemyScript : MonoBehaviour
     public bool scared = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public float summoningSickness = 5;
+    public float summoningMax = 8f;
+    public float summoningMin = 5f;
     public float reevaluateTargetTime = 1f;
     public Transform target;
     public float targetTimer = 0;
@@ -14,7 +16,7 @@ public class enemyScript : MonoBehaviour
     private Rigidbody2D mover;
     void Start()
     {
-        summoningSickness = Random.Range(5,8);
+        summoningSickness = Random.Range(summoningMin,summoningMax);
         spawnTimer = 0;
         scared = false;
         targetTimer = 0;
