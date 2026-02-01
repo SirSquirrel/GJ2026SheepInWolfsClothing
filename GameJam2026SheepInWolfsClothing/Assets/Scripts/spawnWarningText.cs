@@ -24,6 +24,18 @@ public class spawnWarningText : MonoBehaviour
             tigerWarningTime = float.PositiveInfinity;
             timeFromLastMessage = 0f;
         }
+        if(curTime > poacherWarningTime)
+        {
+            GetComponent<TMPro.TextMeshProUGUI>().text = "Poachers will spawn soon";
+            poacherWarningTime = float.PositiveInfinity;
+            timeFromLastMessage = 0f;
+        }
+        if(curTime > dragonWarningTime)
+        {
+            GetComponent<TMPro.TextMeshProUGUI>().text = "Dragons will spawn soon";
+            dragonWarningTime = float.PositiveInfinity;
+            timeFromLastMessage = 0f;
+        }
         if(timeFromLastMessage > messageLifespan)
         {
             ClearText();

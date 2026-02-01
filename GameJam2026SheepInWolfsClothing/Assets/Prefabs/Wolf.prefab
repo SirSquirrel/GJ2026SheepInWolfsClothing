@@ -180,6 +180,7 @@ MonoBehaviour:
   targetTimer: 0
   spawnTimer: 0
   speed: 1
+  scareIcon: {fileID: 9148037093513091467, guid: ea9b85cd9eb4bc5408f18ff2b40653a2, type: 3}
 --- !u!82 &7071332892343912258
 AudioSource:
   m_ObjectHideFlags: 0

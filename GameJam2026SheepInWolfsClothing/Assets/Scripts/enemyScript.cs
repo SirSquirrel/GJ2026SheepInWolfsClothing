@@ -14,6 +14,7 @@ public class enemyScript : MonoBehaviour
     public float spawnTimer = 0;
     public float speed = 2;
     private Rigidbody2D mover;
+    public GameObject scareIcon;
     void Start()
     {
         summoningSickness = Random.Range(summoningMin,summoningMax);
@@ -41,6 +42,13 @@ public class enemyScript : MonoBehaviour
         {
             Flee();
         }
+    }
+
+    public void BecomeScared()
+    {
+        scared = true;
+        GameObject icon = Instantiate(scareIcon, transform.position + new Vector3(0f,0.5f,0f), Quaternion.identity);
+        icon.transform.SetParent(transform);
     }
 
     public void OnBecameInvisible()

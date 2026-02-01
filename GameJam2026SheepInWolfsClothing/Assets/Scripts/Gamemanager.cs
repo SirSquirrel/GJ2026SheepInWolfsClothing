@@ -64,6 +64,10 @@ public class GameManager : MonoBehaviour
             lives = 3;
             ReturnToMenu();
         }
+        if(Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     public void AddSheepCoin(int coinAmount)
