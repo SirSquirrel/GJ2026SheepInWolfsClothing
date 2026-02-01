@@ -643,11 +643,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 208161870}
   m_CullTransparentMesh: 1
---- !u!1 &226206814 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6158162299095914474, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-  m_PrefabInstance: {fileID: 688547999448839039}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &246102814
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,11 +793,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246102814}
   m_CullTransparentMesh: 1
---- !u!1 &322648665 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 310227103651241146, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-  m_PrefabInstance: {fileID: 688547999448839039}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &472339678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,11 +1404,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpawnButton
   prefabToSpawn: {fileID: 856058864768293001, guid: ac3c09d9002f6cc4c876f6338bf7cdba, type: 3}
   cost: 10
---- !u!1 &554186490 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5977508584293924649, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-  m_PrefabInstance: {fileID: 688547999448839039}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2290,16 +2275,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097620730}
   m_CullTransparentMesh: 1
---- !u!1 &1169125623 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2085954597798076779, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-  m_PrefabInstance: {fileID: 688547999448839039}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1196994138 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5956774473441414224, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-  m_PrefabInstance: {fileID: 688547999448839039}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1224594941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2495,16 +2470,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314090817}
   m_CullTransparentMesh: 1
---- !u!1 &1379881871 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1303610093458983653, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-  m_PrefabInstance: {fileID: 688547999448839039}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1381012035 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4299548449358023598, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-  m_PrefabInstance: {fileID: 688547999448839039}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1446637220
 GameObject:
   m_ObjectHideFlags: 0
@@ -2837,11 +2802,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfafedd8a793b544d893d516d382e1bb, type: 3}
---- !u!1 &1831137510 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7201602240343259537, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-  m_PrefabInstance: {fileID: 688547999448839039}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2052076874
 GameObject:
   m_ObjectHideFlags: 0
@@ -3122,41 +3082,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6665887328380951549, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-      propertyPath: spawnPoints.Array.size
-      value: 24
+      propertyPath: enemyTimer
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 6665887328380951549, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-      propertyPath: 'spawnPoints.Array.data[16]'
-      value: 
-      objectReference: {fileID: 1196994138}
+      propertyPath: timeUntilTigerSpawnAllowed
+      value: 35
+      objectReference: {fileID: 0}
     - target: {fileID: 6665887328380951549, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-      propertyPath: 'spawnPoints.Array.data[17]'
-      value: 
-      objectReference: {fileID: 226206814}
+      propertyPath: timeUntilDragonSpawnAllowed
+      value: 125
+      objectReference: {fileID: 0}
     - target: {fileID: 6665887328380951549, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-      propertyPath: 'spawnPoints.Array.data[18]'
-      value: 
-      objectReference: {fileID: 1831137510}
-    - target: {fileID: 6665887328380951549, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-      propertyPath: 'spawnPoints.Array.data[19]'
-      value: 
-      objectReference: {fileID: 1169125623}
-    - target: {fileID: 6665887328380951549, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-      propertyPath: 'spawnPoints.Array.data[20]'
-      value: 
-      objectReference: {fileID: 322648665}
-    - target: {fileID: 6665887328380951549, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-      propertyPath: 'spawnPoints.Array.data[21]'
-      value: 
-      objectReference: {fileID: 554186490}
-    - target: {fileID: 6665887328380951549, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-      propertyPath: 'spawnPoints.Array.data[22]'
-      value: 
-      objectReference: {fileID: 1379881871}
-    - target: {fileID: 6665887328380951549, guid: 161a9017e8d669848a76d47eeda3236b, type: 3}
-      propertyPath: 'spawnPoints.Array.data[23]'
-      value: 
-      objectReference: {fileID: 1381012035}
+      propertyPath: timeUntilPoacherSpawnAllowed
+      value: 65
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

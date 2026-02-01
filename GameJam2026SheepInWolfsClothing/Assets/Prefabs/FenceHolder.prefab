@@ -486,15 +486,15 @@ MonoBehaviour:
   wolfPrefab: {fileID: 3200054648898631264, guid: daafbfd1861e6ae4c92b71731d2fd833, type: 3}
   tigerPrefab: {fileID: 7525948283843502687, guid: e1daf533c8dfb6e4cbfe17dce1143648, type: 3}
   tigerSpawning: 0
-  timeUntilTigerSpawnAllowed: 30
+  timeUntilTigerSpawnAllowed: 35
   poacherPrefab: {fileID: 2718773160605422219, guid: db3e844f91b138d47ae64d09b7799e45, type: 3}
   poacherSpawning: 0
-  timeUntilPoacherSpawnAllowed: 60
+  timeUntilPoacherSpawnAllowed: 65
   dragonPrefab: {fileID: 2032659348801069632, guid: 00341812ca09f504f83b20a64800b939, type: 3}
   dragonSpawning: 0
-  timeUntilDragonSpawnAllowed: 120
+  timeUntilDragonSpawnAllowed: 125
   timeUntilWolfSpawnAllowed: 0
-  enemyTimer: 0
+  enemyTimer: -5
   timeTillEnemySpawn: 10
   minTimeTillEnemySpawn: 2
   enemiesCurrentlySpawning: []

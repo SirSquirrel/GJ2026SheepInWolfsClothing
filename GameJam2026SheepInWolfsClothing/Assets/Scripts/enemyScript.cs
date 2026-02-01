@@ -3,6 +3,7 @@ using UnityEngine;
 public class enemyScript : MonoBehaviour
 {
     public string enemyType;
+    public AudioSource sheepDeathNoise;
     public bool scared = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public float summoningSickness = 5;
@@ -89,6 +90,7 @@ public class enemyScript : MonoBehaviour
             Destroy(bumper);
             target = null;
             GameManager._instance.LoseLife();
+            sheepDeathNoise.Play();
             //they ate a sheep so they will leave
             scared = true;
         }
