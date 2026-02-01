@@ -81,6 +81,8 @@ public class enemyScript : MonoBehaviour
             Destroy(bumper);
             target = null;
             GameManager._instance.LoseLife();
+            //they ate a sheep so they will leave
+            scared = true;
         }
     }
 
