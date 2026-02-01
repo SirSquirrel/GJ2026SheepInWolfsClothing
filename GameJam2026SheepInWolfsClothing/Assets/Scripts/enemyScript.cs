@@ -75,7 +75,7 @@ public class enemyScript : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         GameObject bumper = collision.gameObject;
-        if ( LayerMask.LayerToName(bumper.layer) == "Sheep")
+        if ( LayerMask.LayerToName(bumper.layer) == "Sheep" && !scared)
         {
             GameManager._instance.sheep.Remove(bumper);
             Destroy(bumper);

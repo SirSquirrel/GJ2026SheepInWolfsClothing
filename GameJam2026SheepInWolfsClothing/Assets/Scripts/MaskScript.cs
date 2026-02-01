@@ -15,11 +15,16 @@ public class MaskScript : MonoBehaviour
         
     }
 
-    public void SnapToSheep(GameObject Sheep)
+    public void SnapToSheep(GameObject sheep)
     {
+        //check if the sheep already has a mask
+        if(sheep.GetComponentInChildren<MaskScript>())
+        {
+            return;
+        }
         worn = true;
-        gameObject.transform.SetParent(Sheep.transform);
-        gameObject.transform.position = Sheep.transform.position + new Vector3(0,0,-1);
+        gameObject.transform.SetParent(sheep.transform);
+        gameObject.transform.position = sheep.transform.position + new Vector3(0,0,-1);
     }
 
     public void Unsnap()

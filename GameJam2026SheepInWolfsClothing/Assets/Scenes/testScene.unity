@@ -132,10 +132,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2899329574331836057, guid: cfafedd8a793b544d893d516d382e1bb, type: 3}
-      propertyPath: m_AngularDamping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3169234147169277022, guid: cfafedd8a793b544d893d516d382e1bb, type: 3}
       propertyPath: m_Radius
       value: 1.2740505
@@ -187,14 +183,6 @@ PrefabInstance:
     - target: {fileID: 6571901194360496942, guid: cfafedd8a793b544d893d516d382e1bb, type: 3}
       propertyPath: m_Name
       value: Sheep (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6571901194360496942, guid: cfafedd8a793b544d893d516d382e1bb, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6907289247293995130, guid: cfafedd8a793b544d893d516d382e1bb, type: 3}
-      propertyPath: coinTime
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
