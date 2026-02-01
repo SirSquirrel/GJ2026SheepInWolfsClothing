@@ -60,7 +60,6 @@ public class enemyScript : MonoBehaviour
         }
         if (target is not null)
         {
-            Debug.Log("moving");
             mover.linearVelocity = (target.position - transform.position).normalized * speed;
         }
     }

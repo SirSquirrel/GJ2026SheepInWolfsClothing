@@ -61,6 +61,7 @@ public class GameManager : MonoBehaviour
         survivalTime = survivalTime + Time.deltaTime;
         if (lives <=0)
         {
+            lives = 3;
             ReturnToMenu();
         }
     }
@@ -81,19 +82,10 @@ public class GameManager : MonoBehaviour
         lives -= 1;
     }
 
-    public void StartGame()
-    {
-        SceneManager.LoadScene("GameScene");
-        Restart();
-    }
-
     public void ReturnToMenu()
     {
+        lives = 3;
         SceneManager.LoadScene("menu");
     }
 
-    public void ExitGame()
-    {
-        Application.Quit();
-    }
 }

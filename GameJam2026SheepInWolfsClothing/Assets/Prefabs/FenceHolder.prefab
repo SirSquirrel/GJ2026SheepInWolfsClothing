@@ -424,6 +424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1858823469603514773}
   - component: {fileID: 6665887328380951549}
+  - component: {fileID: 7313641713053215723}
   m_Layer: 0
   m_Name: FenceHolder
   m_TagString: Untagged
@@ -483,10 +484,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   wolfPrefab: {fileID: 3200054648898631264, guid: daafbfd1861e6ae4c92b71731d2fd833, type: 3}
+  tigerPrefab: {fileID: 7525948283843502687, guid: e1daf533c8dfb6e4cbfe17dce1143648, type: 3}
+  tigerSpawning: 0
+  timeUntilTigerSpawnAllowed: 30
+  poacherPrefab: {fileID: 2718773160605422219, guid: db3e844f91b138d47ae64d09b7799e45, type: 3}
+  poacherSpawning: 0
+  timeUntilPoacherSpawnAllowed: 60
+  dragonPrefab: {fileID: 2032659348801069632, guid: 00341812ca09f504f83b20a64800b939, type: 3}
+  dragonSpawning: 0
+  timeUntilDragonSpawnAllowed: 120
   timeUntilWolfSpawnAllowed: 0
   enemyTimer: 0
   timeTillEnemySpawn: 10
-  minTimeTillEnemySpawn: 3
+  minTimeTillEnemySpawn: 2
   enemiesCurrentlySpawning: []
   spawnPoints:
   - {fileID: 5690177579951411744}
@@ -505,7 +515,30 @@ MonoBehaviour:
   - {fileID: 5167738793919348327}
   - {fileID: 3382287828907561165}
   - {fileID: 3921232952339265137}
-  timeDifferentialFromEnemySpawnTimer: 0.01
+  - {fileID: 5956774473441414224}
+  - {fileID: 6158162299095914474}
+  - {fileID: 7201602240343259537}
+  - {fileID: 2085954597798076779}
+  - {fileID: 310227103651241146}
+  - {fileID: 5977508584293924649}
+  - {fileID: 1303610093458983653}
+  - {fileID: 4299548449358023598}
+  timeDifferentialFromEnemySpawnTimer: 0.2
+--- !u!114 &7313641713053215723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180062476181161174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c11e85896f6b8c842849dbb90da65214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::sheepSpawnScript
+  sheep: {fileID: 6571901194360496942, guid: cfafedd8a793b544d893d516d382e1bb, type: 3}
+  timeBetweenSpawns: 15
+  spawnTimer: 0
 --- !u!1 &1303610093458983653
 GameObject:
   m_ObjectHideFlags: 0
