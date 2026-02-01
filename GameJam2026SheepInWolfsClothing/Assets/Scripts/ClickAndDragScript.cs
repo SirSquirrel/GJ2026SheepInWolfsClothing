@@ -3,13 +3,11 @@ using System.Collections.Generic;
 
 public class ClickAndDragScript : MonoBehaviour
 {
-    private Rigidbody2D mover;
     private CircleCollider2D collider;
     public bool grabbed = false;
 
     void Start()
     {
-        mover = GetComponent<Rigidbody2D>();
         collider = GetComponent<CircleCollider2D>();
     }
     void OnMouseDown()
@@ -26,7 +24,11 @@ public class ClickAndDragScript : MonoBehaviour
     {
         if(grabbed == true)
         {
-            mover.MovePosition(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+            Vector3 newpos = new Vector3();
+            newpos.x = Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
+            newpos.y = Camera.main.ScreenToWorldPoint(Input.mousePosition).y;
+            newpos.z = transform.position.z;
+            transform.position = newpos;
         }
     }
 

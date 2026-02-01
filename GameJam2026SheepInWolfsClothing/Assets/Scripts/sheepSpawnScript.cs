@@ -9,6 +9,7 @@ public class sheepSpawnScript : MonoBehaviour
     void Start()
     {
         spawnTimer = 0;
+        GameManager._instance.Restart();
     }
 
     // Update is called once per frame

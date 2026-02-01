@@ -48,9 +48,11 @@ MonoBehaviour:
   sheepcoin: 10
   score: 0
   survivalTime: 0
-  Sheep:
+  sheep:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  lives: 3
 --- !u!114 &1187267187614965298
 MonoBehaviour:
   m_ObjectHideFlags: 0

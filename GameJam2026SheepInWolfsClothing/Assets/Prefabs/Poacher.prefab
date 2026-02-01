@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6571901194360496942
+--- !u!1 &2718773160605422219
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,42 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4334422992233958813}
-  - component: {fileID: 6737678190518671824}
-  - component: {fileID: 6907289247293995130}
-  - component: {fileID: 3169234147169277022}
-  - component: {fileID: 2899329574331836057}
-  - component: {fileID: 5952887169307783639}
-  m_Layer: 6
-  m_Name: Sheep
+  - component: {fileID: 8827289348429034782}
+  - component: {fileID: 5466089315641975935}
+  - component: {fileID: 6718846468881278655}
+  - component: {fileID: 7412751680025343192}
+  - component: {fileID: 4908702189370837760}
+  m_Layer: 9
+  m_Name: Poacher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4334422992233958813
+--- !u!4 &8827289348429034782
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6571901194360496942}
+  m_GameObject: {fileID: 2718773160605422219}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00255, y: 0.39, z: 0}
-  m_LocalScale: {x: 0.33, y: 0.33, z: 1}
+  m_LocalPosition: {x: 1.6839, y: 4.3733, z: -0.01}
+  m_LocalScale: {x: 4.036623, y: 4.9005675, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6737678190518671824
+--- !u!212 &5466089315641975935
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6571901194360496942}
+  m_GameObject: {fileID: 2718773160605422219}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -85,43 +84,23 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4692546424922502978, guid: e46635fc27d8c164390df0a5c81f9049, type: 3}
+  m_Sprite: {fileID: -2011081452543692480, guid: a112cb05d5110594fa1cfb46e2ebaf42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.25, y: 0.3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &6907289247293995130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6571901194360496942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3849a28c2eb738c41bd3a5fed3e36141, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  timeSinceLastCoin: 0
-  coinTime: 5
-  timeSinceLastWander: 0
-  timeToNextWander: 5
-  wanderTime: 5
-  wandering: 0
-  wanderDirection: {x: 0, y: 0}
-  speed: 0.4
---- !u!58 &3169234147169277022
+--- !u!58 &6718846468881278655
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6571901194360496942}
+  m_GameObject: {fileID: 2718773160605422219}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -149,23 +128,23 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.03915086}
-  m_Radius: 1.3132001
---- !u!50 &2899329574331836057
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.15
+--- !u!50 &7412751680025343192
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6571901194360496942}
+  m_GameObject: {fileID: 2718773160605422219}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 1
+  m_AngularDamping: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -174,20 +153,27 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 1
+  m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5952887169307783639
+--- !u!114 &4908702189370837760
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6571901194360496942}
+  m_GameObject: {fileID: 2718773160605422219}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ab8bde4978156c4794f61df4e9efd97, type: 3}
+  m_Script: {fileID: 11500000, guid: 232b3cf613cf2a44d940b21d22644e69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  grabbed: 0
+  enemyType: Poacher
+  scared: 0
+  summoningSickness: 4
+  reevaluateTargetTime: 1
+  target: {fileID: 0}
+  targetTimer: 0
+  spawnTimer: 0
+  speed: 1.2

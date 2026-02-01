@@ -423,6 +423,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1858823469603514773}
+  - component: {fileID: 6665887328380951549}
   m_Layer: 0
   m_Name: FenceHolder
   m_TagString: Untagged
@@ -469,6 +470,42 @@ Transform:
   - {fileID: 5335036279750367657}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6665887328380951549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180062476181161174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cf26632bdf98ff40a08c505a9c606be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  wolfPrefab: {fileID: 3200054648898631264, guid: daafbfd1861e6ae4c92b71731d2fd833, type: 3}
+  timeUntilWolfSpawnAllowed: 0
+  enemyTimer: 0
+  timeTillEnemySpawn: 10
+  minTimeTillEnemySpawn: 3
+  enemiesCurrentlySpawning: []
+  spawnPoints:
+  - {fileID: 5690177579951411744}
+  - {fileID: 8571351892789332938}
+  - {fileID: 3225926574327236774}
+  - {fileID: 4989786885401692156}
+  - {fileID: 7054488449537737083}
+  - {fileID: 3669271050559064215}
+  - {fileID: 430403945554504093}
+  - {fileID: 3875481728980276242}
+  - {fileID: 861398854569891108}
+  - {fileID: 3455101382692933440}
+  - {fileID: 5465696098089241079}
+  - {fileID: 4174711003758505125}
+  - {fileID: 8025083451830286915}
+  - {fileID: 5167738793919348327}
+  - {fileID: 3382287828907561165}
+  - {fileID: 3921232952339265137}
+  timeDifferentialFromEnemySpawnTimer: 0.01
 --- !u!1 &1303610093458983653
 GameObject:
   m_ObjectHideFlags: 0

@@ -41,6 +41,14 @@ public class enemyScript : MonoBehaviour
         }
     }
 
+    public void OnBecameInvisible()
+    {
+        if(scared)
+        {
+            Destroy(gameObject);
+        }
+    }
+
     public void Hunt()
     {
         if (targetTimer > reevaluateTargetTime)
@@ -50,6 +58,7 @@ public class enemyScript : MonoBehaviour
         }
         if (target is not null)
         {
+            Debug.Log("moving");
             mover.linearVelocity = (target.position - transform.position).normalized * speed;
         }
     }
@@ -70,6 +79,7 @@ public class enemyScript : MonoBehaviour
             GameManager._instance.sheep.Remove(bumper);
             Destroy(bumper);
             target = null;
+            GameManager._instance.LoseLife();
         }
     }
 

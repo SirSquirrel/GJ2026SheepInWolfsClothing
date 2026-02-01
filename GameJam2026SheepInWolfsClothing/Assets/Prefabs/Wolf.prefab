@@ -169,6 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 232b3cf613cf2a44d940b21d22644e69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  enemyType: Wolf
   scared: 0
   summoningSickness: 5
   reevaluateTargetTime: 1
