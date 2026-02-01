@@ -20,19 +20,19 @@ public class spawnWarningText : MonoBehaviour
         timeFromLastMessage += Time.deltaTime;
         if(curTime > tigerWarningTime)
         {
-            GetComponent<TMPro.TextMeshProUGUI>().text = "Tigers will spawn soon";
+            GetComponent<TMPro.TextMeshProUGUI>().text = "Tigers will spawn soon tiger masks will scare them";
             tigerWarningTime = float.PositiveInfinity;
             timeFromLastMessage = 0f;
         }
         if(curTime > poacherWarningTime)
         {
-            GetComponent<TMPro.TextMeshProUGUI>().text = "Poachers will spawn soon";
+            GetComponent<TMPro.TextMeshProUGUI>().text = "Poachers will spawn soon snake masks will scare them";
             poacherWarningTime = float.PositiveInfinity;
             timeFromLastMessage = 0f;
         }
         if(curTime > dragonWarningTime)
         {
-            GetComponent<TMPro.TextMeshProUGUI>().text = "Dragons will spawn soon";
+            GetComponent<TMPro.TextMeshProUGUI>().text = "Dragons will spawn soon hero masks will scare them";
             dragonWarningTime = float.PositiveInfinity;
             timeFromLastMessage = 0f;
         }

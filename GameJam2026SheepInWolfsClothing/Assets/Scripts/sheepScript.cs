@@ -38,6 +38,19 @@ public class sheepScript : MonoBehaviour
         GameManager._instance.AddSheepCoin(1);
     }
 
+    //detach mask on right click
+    public void OnMouseOver () 
+    {
+        if(Input.GetMouseButtonDown(1))
+        {
+            MaskScript maskWorn = GetComponentInChildren<MaskScript>();
+            if(maskWorn is not null)
+            {
+                maskWorn.Unsnap();
+            }
+        }
+    }   
+
     public void Wander()
     {
         if(!wandering && timeSinceLastWander > wanderTime)

@@ -20,6 +20,7 @@ public class ScareScript : MonoBehaviour
                 if (scarable.Contains(enemy.enemyType) && mask.worn == true)
                 {
                     enemy.BecomeScared();
+                    enemy.scaredNoise.Play();
                 }
             }
         }

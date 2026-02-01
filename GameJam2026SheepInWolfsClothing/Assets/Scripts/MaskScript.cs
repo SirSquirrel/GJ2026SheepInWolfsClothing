@@ -20,7 +20,10 @@ public class MaskScript : MonoBehaviour
         //check if the sheep already has a mask
         if(sheep.GetComponentInChildren<MaskScript>())
         {
-            return;
+            //if so swap masks
+            MaskScript maskCurrentlyWorn = sheep.GetComponentInChildren<MaskScript>();
+            maskCurrentlyWorn.Unsnap();
+
         }
         worn = true;
         gameObject.transform.SetParent(sheep.transform);

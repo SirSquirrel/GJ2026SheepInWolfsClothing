@@ -4,6 +4,7 @@ public class enemyScript : MonoBehaviour
 {
     public string enemyType;
     public AudioSource sheepDeathNoise;
+    public AudioSource scaredNoise;
     public bool scared = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public float summoningSickness = 5;
